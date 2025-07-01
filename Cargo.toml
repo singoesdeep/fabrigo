@@ -1,0 +1,15 @@
+[package]
+name = "fabrigo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bon = "3.6"
+rand = "0.9.1"
+
+[features]
+default = []
+
+[[example]]
+name = "simple"
+path = "examples/simple.rs"
