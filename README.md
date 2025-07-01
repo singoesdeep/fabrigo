@@ -13,9 +13,6 @@ cargo run --example simple
 
 🛠 Usage Example
 ```rust
-use fabrigo::{Attribute, Effect, CreatureRace, Player, Creature};
-
-fn main() {
 use bon::Builder;
 use fabrigo::{
     attribute::{Attribute, AttributeEffect},
